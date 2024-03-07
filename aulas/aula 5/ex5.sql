@@ -1,0 +1,3 @@
+USE coemu;
+ALTER TABLE usuario 
+MODIFY COLUMN id_usuario INT AUTO_INCREMENT;

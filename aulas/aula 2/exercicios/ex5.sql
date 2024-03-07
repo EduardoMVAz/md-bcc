@@ -1,0 +1,7 @@
+USE 
+	musica;
+SELECT DISTINCT
+	CD_Indicado
+FROM 
+	CD
+WHERE CD_Indicado IS NOT NULL;
